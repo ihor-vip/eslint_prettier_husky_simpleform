@@ -55,7 +55,7 @@ const Register = () => {
         {errMsg}
       </p>
       <h1>Register</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="username">
           Username:
           <FontAwesomeIcon
@@ -166,6 +166,13 @@ const Register = () => {
         >
           Sign Up
         </button>
+        <p>
+          Already registered?
+          <br />
+          <span className="line">
+            <a href="#">Sign In</a>
+          </span>
+        </p>
       </form>
     </section>
   );
