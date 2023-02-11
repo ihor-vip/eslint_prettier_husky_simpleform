@@ -1,7 +1,11 @@
-import "./App.css";
+import Register from "./Register";
 
 function App() {
-  return <div className="App">hello</div>;
+  return (
+    <main className="App">
+      <Register />
+    </main>
+  );
 }
 
 export default App;
